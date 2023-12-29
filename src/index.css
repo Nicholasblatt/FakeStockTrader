@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the input and button container to make it look neater */
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Spacing between input and button */
+  margin-top: 10px; /* Spacing from the top element */
+}
+
+/* Style for the buttons to make them more appealing */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.profit {
+  color: #4CAF50; /* Muted green color */
+}
+
+.loss {
+  color: #f44336; /* Muted red color */
+}
+
+/* Updated style for the buy button with a more muted green color */
+.buy-button {
+  background-color: #5e8b7e; /* Muted green background for buying */
+}
+
+.buy-button:hover {
+  background-color: #507568;
+}
+
+/* Updated style for the sell button with a more muted red color */
+.sell-button {
+  background-color: #a45b5b; /* Muted red background for selling */
+}
+
+.sell-button:hover {
+  background-color: #8e4d4d;
+}
+
+/* Updated style for the sell all button with a more muted color */
+.sell-all-button {
+  background-color: #a45b5b; /* Muted red background for selling */
+}
+
+.sell-all-button:hover {
+  background-color: #8e4d4d;
+}
+
+/* Style for the inputs */
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+input[type="number"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* General style improvements */
+body {
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Center the main content and give it a maximum width */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
